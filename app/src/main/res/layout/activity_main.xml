@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CA->2"
+        android:id="@+id/ca"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="160dp"></TextView>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ca"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="-58dp"
+        android:text="BY->Harsh gupta" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:id="@+id/Q1"
+        android:layout_marginTop="300dp"
+        android:layout_alignEnd="@+id/name"
+        ></Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q2"
+        android:id="@+id/Q2"
+        android:layout_marginTop="400dp"
+        android:layout_alignEnd="@+id/Q1"
+        ></Button>
+</RelativeLayout>
